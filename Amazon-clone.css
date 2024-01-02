@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+.border{
+    border: 1.6px solid transparent;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.border:hover{
+    border:1.6px solid white;
+}
+.navbar{
+    background-color: #00453e;
+    height: 63px;
+    color: white;
+    display: flex;
+}
+
+/**Box--1**/
+
+.nav-logo{
+    height: 60px;
+    width: 110px;
+    margin-left: 16px;
+}
+.logo{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+/**Box--2**/
+
+.nav-address{
+    align-items: center;
+    padding: 10px 0px 0px 10px;
+    height: 50px;
+    width: 87px;
+    overflow: hidden;
+}
+.deliver{
+    color: #ccc;
+    font-size: 12px;
+    margin-left: 14px;
+}
+.India{
+    margin-left: 3px;
+}
+.location{
+    height: 7px;
+    width: 20px;
+    display: flex;
+}
+.location p{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/**Box-3**/
+
+.Search-bar{
+    height: 40px;
+    width: 620px;
+    display: flex;
+    background-color: rgb(239, 170, 10);
+    align-items: center;
+    margin-top: 8px;
+    border-radius: 4px;
+}
+.all-option{
+    height: 40px;
+    width: 50px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    outline: none;
+    border: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: #e7e6e6;
+}
+.search{
+    height: 35.7px;
+    width: 500px;
+    outline: none;
+    border: 0.5px solid  #f9f7f7;
+}
+.search-icon{
+    height: 30px;
+    display: flex;
+    text-align: center;
+    width: 45px;
+}
+
+
+/**panel**/
+
+.panel{
+    background-color: #06665d;
+    height: 39px;
+    width: 100%;
+}
